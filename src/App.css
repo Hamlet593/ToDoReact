@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  border: 2px solid grey;
+}
+
+.footer span, button {
+  margin-right: 15px;
+}
+
+.item input, span {
+  margin-right: 15px;
+}
