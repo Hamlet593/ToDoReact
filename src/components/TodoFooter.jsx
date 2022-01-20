@@ -10,9 +10,9 @@ export default function TodoFooter ({todos, clearCompleted, changeListType}) {
     return (
         <div className="footer">
             <span>{isCompleted} items left</span>
-            <button onClick={() => onClickHandler('All')}>All</button>
-            <button onClick={() => onClickHandler('Active')}>Active</button>
-            <button onClick={() => onClickHandler('Completed')}>Completed</button>
+            <button onClick={() => onClickHandler('All')}>Բոլորը</button>
+            <button onClick={() => onClickHandler('Active')}>Ընթացքում</button>
+            <button onClick={() => onClickHandler('Completed')}>Կատարվածներ</button>
             <button onClick={() => {
                 clearCompleted()
             }}>Մաքրել Կատարվածները</button>

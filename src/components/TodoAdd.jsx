@@ -10,7 +10,7 @@ export default function TodoAdd({onAdd, changeAll}){
                 changeAll(evt.target.checked)
             }} />
             <input type='text' value={text} onChange={evt => {
-                setText(evt.target.value.trim());
+                setText(evt.target.value);
             }}/>
             <button onClick={evt => {
                 evt.preventDefault();
