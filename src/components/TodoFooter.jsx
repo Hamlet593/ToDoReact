@@ -15,7 +15,7 @@ export default function TodoFooter ({todos, clearCompleted, changeListType}) {
             <button onClick={() => onClickHandler('Completed')}>Completed</button>
             <button onClick={() => {
                 clearCompleted()
-            }}>Clear Completed</button>
+            }}>Մաքրել Կատարվածները</button>
         </div>
     )
 }
